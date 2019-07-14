@@ -1,0 +1,1 @@
+Le code de ce site est accessible à tous. Pour modifier les couleurs accéder au fichier /assets/css/style.css.
