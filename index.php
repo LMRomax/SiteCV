@@ -1,24 +1,24 @@
 <!DOCTYPE html>
 <html lang="fr" class="theme-skin-light cssall cssgradients rgba opacity supports textshadow cssanimations bgrepeatround bgrepeatspace boxshadow csstransforms csstransforms3d csstransitions desktop theme-color-07aaf5" style>
     <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Maxence Lemaitre - Curriculum Vitae</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon.png" />
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/js/plugins/jquery.fancybox/jquery.fancybox.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link href='//fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
-    <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
-    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
-		<link rel="icon" type="image/png" href="" />
-		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
-		<script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
-		<script src='https://www.google.com/recaptcha/api.js'></script>
-    <script src='assets/js/jquery.waypoints.min.js'></script>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+      <title>Maxence Lemaitre - Curriculum Vitae</title>
+      <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/js/plugins/jquery.fancybox/jquery.fancybox.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href='//fonts.googleapis.com/css?family=Fredoka+One' rel='stylesheet' type='text/css'>
+      <link type="text/css" rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+      <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
+      <link rel="icon" type="image/png" href="" />
+      <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.js" integrity="sha256-fNXJFIlca05BIO2Y5zh1xrShK3ME+/lYZ0j+ChxX2DA=" crossorigin="anonymous"></script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+      <script src='assets/js/jquery.waypoints.min.js'></script>
     </head>
     <body>
   		<?php include 'menuprincipal.php';?>
@@ -300,6 +300,20 @@
                 </div>
               </div>
 
+              
+              <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
+                <div class="flipper">
+                  <div class="front">
+                    <div class="cardimg" style="background-image: url('assets/images/Yoo.png')"></div>
+                  </div>
+                  <div class="back">
+                    <h3 class="cardtitle">Yoo ( Your own organization )</h3>
+                    <h4 class="descriptiontitle">Système de gestion de contact</h4>
+                    <a href="https://lmaxence.fr/Yoo/public/" target="_blank" rel="noopener noreferrer">Yoo</a>
+                  </div>
+                </div>
+              </div>
+
             </div>
 
             </div>
@@ -312,7 +326,22 @@
               <div class="timeline-bar" style=""></div>
               <div class="timeline-inner clearfix" style="">
 
-              <div class="timeline-box timeline-box-left" style="">
+              <div class="timeline-box timeline-box-right" style="position: absolute; right: 0px; top: 0px;">
+              <span class="dot"></span>
+              <div class="timeline-box-inner animate-right animated">
+                <span class="arrow"></span>
+                <div class="date">Mars 2018 - Juin 2018</div>
+                <h3>Yoo</h3>
+                <h4>Développeur Full-Stack</h4>
+                  <ul>
+                    <li>Création du site <a href="https://lmaxence.fr/Yoo/public/" target="_blank" wrc_done="true">Yoo</a><span class="wrc0 wrc_icon wrc_injected"></span></li>
+                    <li>Système de gestion de contact ( Startup )</li>
+                    <li>Laravel | HTML/CSS | PHP | SQL | Javascript</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="timeline-box timeline-box-left" style="position: absolute; left: 0px; top: 50px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-right animated">
                 <span class="arrow"></span>
@@ -327,7 +356,7 @@
                 </div>
               </div>
 
-              <div class="timeline-box timeline-box-left" style="">
+              <div class="timeline-box timeline-box-right" style="position: absolute; right: 0px; top: 295px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-right animated">
                 <span class="arrow"></span>
@@ -342,7 +371,7 @@
                 </div>
               </div>
 
-              <div class="timeline-box timeline-box-right" style="">
+              <div class="timeline-box timeline-box-left" style="position: absolute; left: 0px; top: 350px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-right animated">
                 <span class="arrow"></span>
@@ -357,7 +386,7 @@
                 </div>
               </div>
 
-              <div class="timeline-box timeline-box-left" style="">
+              <div class="timeline-box timeline-box-right" style="position: absolute; right: 0px; top: 600px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-left animated">
                 <span class="arrow"></span>
@@ -372,7 +401,7 @@
                 </div>
               </div>
 
-              <div class="timeline-box timeline-box-right" style="">
+              <div class="timeline-box timeline-box-left" style="position: absolute; left: 0px; top: 680px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-left animated">
                 <span class="arrow"></span>
@@ -391,13 +420,13 @@
         </section>
 
         <section id="formations" class="section formations">
-            <div class="section-formations">
+          <div class="section-formations">
               <h2 class="section-title">Diplômes &amp; Etudes</h2>
               <div class="timeline">
-                <div class="timeline-bar" style="">
+                <div class="timeline-bar-formations" style="">
               </div>
-              <div class="timeline-inner clearfix" style="">
-              <div class="timeline-box timeline-box-compact timeline-box-left" style="">
+              <div class="timeline-inner-formations clearfix" style="">
+              <div class="timeline-box timeline-box-compact timeline-box-left" style="position: absolute; left: 0px; top: 0px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-right animated">
                 <span class="arrow"></span>
@@ -408,7 +437,7 @@
                 <h4>Université de Valenciennes et du Hainaut Cambrésis</h4>
               </div>
               </div>
-              <div class="timeline-box timeline-box-compact timeline-box-right" style="">
+              <div class="timeline-box timeline-box-compact timeline-box-right" style="position: absolute; right: 0px; top: 35px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-left animated">
                 <span class="arrow"></span>
@@ -419,7 +448,7 @@
                 <h4>Université de Valenciennes et du Hainaut Cambrésis</h4>
               </div>
               </div>
-              <div class="timeline-box timeline-box-compact timeline-box-left" style="">
+              <div class="timeline-box timeline-box-compact timeline-box-left" style="position: absolute; left: 0px; top: 230px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-right animated">
                 <span class="arrow"></span>
@@ -430,7 +459,7 @@
                 <h4>Université de Valenciennes et du Hainaut Cambrésis</h4>
               </div>
               </div>
-              <div class="timeline-box timeline-box-compact timeline-box-right" style="">
+              <div class="timeline-box timeline-box-compact timeline-box-right" style="position: absolute; right: 0px; top: 275px;">
               <span class="dot"></span>
               <div class="timeline-box-inner animate-left animated">
                 <span class="arrow"></span>
