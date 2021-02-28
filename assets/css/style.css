@@ -116,7 +116,7 @@
 
 .intro-container {
     position: relative;
-    background: #811145;
+    background: #e74c3c;
     min-height: 250px;
     overflow: hidden;
 }
@@ -165,10 +165,9 @@
 }
 
 .intro-container .intro-presentation .intro-presentation--devweb {
-    font-family: Raleway-Light;
+    font-family: Raleway-Regular;
     font-size: 24px;
     color: #ecf0f1;
-    font-weight: 400;
     text-align: center;
 }
 
@@ -183,5 +182,70 @@
 }
 
 .menu--nav {
-    background: #811145;
+    background: #3498db;
+    padding: 16px;
+    color: #ecf0f1;
+}
+
+.navigation-menu {
+    text-align: center;
+}
+
+.navigation-menu a {
+    padding: 0 8px;
+}
+
+.navigation-menu a:hover {
+    text-decoration: none;
+}
+
+.navigation-menu a span {
+    position: relative;
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.navigation-menu a .active:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: -6px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background: #e74c3c;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.navigation-menu a span:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: -6px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 0%;
+    background: #e74c3c;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;  
+}
+
+.navigation-menu a span:hover:after {
+    width: 100%;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
 }

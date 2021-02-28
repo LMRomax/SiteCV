@@ -25,7 +25,7 @@
 
     <nav class="navigation-menu">
         <a href="#presentation" id="element-pres">
-            <span>Présentation</span>
+            <span class="active">Présentation</span>
         </a>
 
         <a href="#competences" id="element-comp">
@@ -37,7 +37,7 @@
         </a>
 
         <a href="#experiences" id="element-exp">
-            <span>Experiences</span>
+            <span>Expériences</span>
         </a>
 
         <a href="#references" id="element-ref">
