@@ -1,0 +1,29 @@
+/***************************
+*
+* 0.0 Général
+*
+* 1.0 Menu
+*   1.1 Intro container
+*
+****************************/
+
+/*----*/
+
+/*-- 1.0 Menu --*/
+
+@media screen and (max-width: 768px) {
+    .intro-container .intro-presentation {
+        padding: 32px;
+        align-items: center;
+    }
+
+    .intro-container .intro-presentation .intro-presentation--content {
+        padding-right: 0;
+    }
+
+    .intro-container .intro-container--lean {
+        display: none;
+    }
+}
+
+/* 1.1 Intro container */
