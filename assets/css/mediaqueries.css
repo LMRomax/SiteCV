@@ -16,11 +16,9 @@
         padding: 32px;
         align-items: center;
     }
-
     .intro-container .intro-presentation .intro-presentation--content {
         padding-right: 0;
     }
-
     .intro-container .intro-container--lean {
         display: none;
     }
