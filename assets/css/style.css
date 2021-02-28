@@ -4,6 +4,7 @@
 *
 * 1.0 Menu
 *   1.1 Intro container
+*   1.2 Menu
 *
 ****************************/
 
@@ -169,4 +170,18 @@
     color: #ecf0f1;
     font-weight: 400;
     text-align: center;
+}
+
+/* 1.2 Menu */
+
+.menu--nav .icon {
+    display: none;
+}
+
+.responsive-mobile-container {
+    display: none;
+}
+
+.menu--nav {
+    background: #811145;
 }

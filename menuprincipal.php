@@ -35,17 +35,7 @@
         <a href="#projets" id="element-projets">
             <span>Projets</span>
         </a>
-    </nav>
 
-    <div class="logo">
-        <a href="index.php">
-            <span class="sp-logo">
-                LM
-            </span>
-        </a>
-    </div>
-
-    <nav class="navigation-menu">
         <a href="#experiences" id="element-exp">
             <span>Experiences</span>
         </a>
@@ -58,7 +48,6 @@
             <span>Contact</span>
         </a>
     </nav>
-
 </div>
 
 <div class="responsive-mobile-nav responsive-mobile-drawer responsive-mobile-drawer--west">
