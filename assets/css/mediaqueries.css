@@ -11,6 +11,12 @@
 
 /*-- 1.0 Menu --*/
 
+@media screen and (max-width: 992px) {
+    .navigation-menu a {
+        padding: 0 8px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro-container .intro-presentation {
         padding: 32px;
