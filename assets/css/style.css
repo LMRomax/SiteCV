@@ -305,6 +305,18 @@
     right: -10px;
 }
 
+.slick-prev, .slick-next {
+    background: #3498db!important;
+}
+
+.slick-prev:before {
+    content: '\003C'!important;
+}
+
+.slick-next:before {
+    content: '\003E'!important;
+}
+
 /*-- Addendum Animation --*/
 
 /* animation spin for loader */
