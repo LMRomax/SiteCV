@@ -12,6 +12,22 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                     variableWidth: false,
                     centerMode: true,
+                    responsive: [
+                        {
+                            breakpoint: 576,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 450,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        },
+                    ]
                 });
             }
         }
@@ -20,6 +36,7 @@ $(document).ready(function () {
             $('.responsive-mobile-nav').css('display', 'none');
             if ($('.navigation-menu--responsive').hasClass('slick-initialized') == true) {
                 $('.navigation-menu--responsive').slick('unslick');
+                $('.navigation-menu--responsive').removeClass('slick-initialized');
             }
         }
     }, 1000);
@@ -29,21 +46,40 @@ $(window).resize(function () {
     if ($(window).width() <= 768) {
         $('.menu--nav').css('display', 'none');
         $('.responsive-mobile-nav').css('display', 'block');
-        if ($('.navigation-menu--responsive').hasClass('slick-initialized') == false) {
-            $('.navigation-menu--responsive').slick({
-                infinite: true,
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                variableWidth: false,
-                centerMode: true,
-            });
-        }
+        setTimeout(function () {
+            if ($('.navigation-menu--responsive').hasClass('slick-initialized') == false) {
+                $('.navigation-menu--responsive').slick({
+                    infinite: true,
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    variableWidth: false,
+                    centerMode: true,
+                    responsive: [
+                        {
+                            breakpoint: 576,
+                            settings: {
+                                slidesToShow: 2,
+                                slidesToScroll: 1
+                            }
+                        },
+                        {
+                            breakpoint: 450,
+                            settings: {
+                                slidesToShow: 1,
+                                slidesToScroll: 1
+                            }
+                        },
+                    ]
+                });
+            }
+        }, 300);
     }
     else if ($(window).width() > 768) {
         $('.menu--nav').css('display', 'block');
         $('.responsive-mobile-nav').css('display', 'none');
         if ($('.navigation-menu--responsive').hasClass('slick-initialized') == true) {
             $('.navigation-menu--responsive').slick('unslick');
+            $('.navigation-menu--responsive').removeClass('slick-initialized');
         }
     }
 });

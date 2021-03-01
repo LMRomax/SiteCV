@@ -47,29 +47,35 @@
 </div>
 
 <div class="responsive-mobile-nav">
-    <nav class="navigation-menu navigation-menu--responsive">
-        <a href="javascript:void(0);" id="mobile-pres">
-            <span>Présentation</span>
-        </a>
+    <div class="responsive-menu--loader">
+        <div id="loader" class="menu-responsive--loader"></div>
+    </div>
 
-        <a href="javascript:void(0);" id="mobile-comp">
-            <span>Compétences</span>
-        </a>
+    <div class="responsive-menu--isload">
+        <nav class="navigation-menu navigation-menu--responsive">
+            <a href="javascript:void(0);" id="mobile-pres">
+                <span>Présentation</span>
+            </a>
 
-        <a href="javascript:void(0);" id="mobile-portfolio">
-            <span>Projets</span>
-        </a>
+            <a href="javascript:void(0);" id="mobile-comp">
+                <span>Compétences</span>
+            </a>
 
-        <a href="javascript:void(0);" id="mobile-xp">
-            <span>Experiences</span>
-        </a>
+            <a href="javascript:void(0);" id="mobile-portfolio">
+                <span>Projets</span>
+            </a>
 
-        <a href="javascript:void(0);" id="mobile-refs">
-            <span>Références</span>
-        </a>
+            <a href="javascript:void(0);" id="mobile-xp">
+                <span>Experiences</span>
+            </a>
 
-        <a href="javascript:void(0);" id="mobile-contact">
-            <span>Contact</span>
-        </a>
-    </nav>
+            <a href="javascript:void(0);" id="mobile-refs">
+                <span>Références</span>
+            </a>
+
+            <a href="javascript:void(0);" id="mobile-contact">
+                <span>Contact</span>
+            </a>
+        </nav>
+    </div>
 </div>

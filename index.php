@@ -42,5 +42,7 @@
     <?php include 'views/menuprincipal.php'; ?>
   </div>
 
+  <script type="text/javascript" src="assets/js/menu.js"></script>
+
 </body>
 </html>
