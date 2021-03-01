@@ -40,6 +40,7 @@
 
   <div id="is-load" class="is-load" style="display: none;">
     <?php include 'views/menuprincipal.php'; ?>
+    <?php include 'views/presentation.php'; ?>
   </div>
 
   <script type="text/javascript" src="assets/js/menu.js"></script>

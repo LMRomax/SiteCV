@@ -7,6 +7,9 @@
 *   1.1 Intro container
 *   1.2 Menu
 *
+* 2.0 Content
+*   2.1 Présentation
+*
 * Addendum Animation
 ****************************/
 
@@ -331,6 +334,28 @@
 .slick-next:before {
     content: '\003E'!important;
 }
+
+/*-- 2.0 Content --*/
+
+.circle {
+    position: relative;
+    background: #ecf0f1;
+    border: 2px solid #e74c3c;
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.title {
+    position: absolute;
+    top: 0px;
+    margin-top: 50vh;
+    transform: translateX(50%);
+    transform: translateY(-50%);
+}
+
+/* 2.1 Présentation */
 
 /*-- Addendum Animation --*/
 
