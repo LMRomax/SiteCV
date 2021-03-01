@@ -137,6 +137,7 @@
 
 .is-load {
     display: none;
+    margin-bottom: 40px;
 }
 
 .loading-bounce {
@@ -161,7 +162,7 @@
 .intro-container .intro-container--lean {
     position: absolute;
     top: -50%;
-    left: 25%;
+    left: -5%;
     width: 85px;
     background: #ecf0f1;
     transform: rotate(45deg);
@@ -171,12 +172,8 @@
 .intro-container .intro-presentation {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     padding: 32px 16px;
-}
-
-.intro-container .intro-presentation .intro-presentation--content {
-    padding-right: 10%;
 }
 
 .intro-container .intro-presentation .intro-presentation--logo {
@@ -294,6 +291,7 @@
     background: #3498db;
     padding: 16px;
     color: #ecf0f1;
+    overflow:hidden;
 }
 
 .slick-slide:focus, .slick-slide a:focus {
@@ -337,22 +335,28 @@
 
 /*-- 2.0 Content --*/
 
-.circle {
+.section-wrapper {
+    position: relative;
+}
+
+.data-card {
     position: relative;
     background: #ecf0f1;
-    border: 2px solid #e74c3c;
-    width: 750px;
-    height: 750px;
-    border-radius: 50%;
+    width: 100%;
     margin: auto;
+    overflow: hidden;
+    border: none;
+    border-radius: 2px;
 }
 
 .title {
-    width: 750px;
+    width: 100%;
     text-align: center;
-    position: absolute;
-    top: 0px;
-    margin-top: 50vh;
+    color: #fff;
+    background: #3498db;
+    font-family: Raleway-Bold;
+    text-transform: uppercase;
+    font-size: 32px;
 }
 
 /* 2.1 Présentation */
