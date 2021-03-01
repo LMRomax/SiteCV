@@ -309,7 +309,7 @@
 /* Mobile menu */
 
 .responsive-mobile-nav {
-    display: none;
+    visibility: hidden;
     background: #3498db;
     padding: 16px;
     color: #ecf0f1;
