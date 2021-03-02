@@ -293,7 +293,6 @@
     padding: 16px;
     color: #ecf0f1;
     overflow-x:hidden;
-    margin-bottom: 56px;
 }
 
 .slick-slide:focus, .slick-slide a:focus {
@@ -339,6 +338,7 @@
 
 .section-wrapper {
     position: relative;
+    margin-bottom: 48px;
 }
 
 .data-card {
