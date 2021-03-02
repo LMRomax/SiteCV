@@ -17,6 +17,13 @@
     }
 }
 
+@media screen and (max-width: 784px) {
+    .navigation-menu a .active:after, .navigation-menu a span:after {
+        bottom: -3px;
+        height: 3px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .intro-container .intro-presentation {
         padding: 32px;
@@ -27,6 +34,21 @@
     }
     .intro-container .intro-container--lean {
         display: none;
+    }
+    .img-presentation {
+        text-align: center;
+    }
+    .img-presentation img {
+        width: 50%;
+        height: auto;
+        margin: auto;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-presentation img { 
+        width: 100%;
     }
 }
 

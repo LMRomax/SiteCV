@@ -9,6 +9,7 @@
 *
 * 2.0 Content
 *   2.1 Présentation
+*   2.2 Compétences
 *
 * Addendum Animation
 ****************************/
@@ -291,7 +292,8 @@
     background: #34495e;
     padding: 16px;
     color: #ecf0f1;
-    overflow:hidden;
+    overflow-x:hidden;
+    margin-bottom: 56px;
 }
 
 .slick-slide:focus, .slick-slide a:focus {
@@ -350,24 +352,8 @@
     border-radius: 2px;
 }
 
-.title {
-    width: 100%;
-    text-align: center;
-    color: #fff;
-    background: #34495e;
-    font-family: Raleway-Bold;
-    text-transform: uppercase;
-    font-size: 32px;
-}
-
 .card-content {
     padding: 24px;
-}
-
-.img-presentation img {
-    width: 100%;
-    height: auto;
-    border-radius: 2px;
 }
 
 .big-title {
@@ -379,6 +365,14 @@
     margin-bottom: 16px;
     color: #fff;
     font-family: Raleway-Black;
+}
+
+/* 2.1 Présentation */
+
+.img-presentation img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
 }
 
 .description {
@@ -401,7 +395,32 @@
     margin-right: 0;
 }
 
-/* 2.1 Présentation */
+/* 2.2 Compétences */
+
+.comp--inner {
+    display: flex;
+    flex-direction: row;
+}
+
+.comp-name {
+    background: #34495e;
+    color: #fff;
+    font-family: Raleway-Bold;
+    font-size: 24px;
+    padding: 24px;
+}
+
+.progress-bar {
+    background: #ecf0f1;
+    width: 150px;
+    height: 6px;
+    border-radius: 50%;
+}
+
+.master-comp {
+    background: #e74c3c;
+    
+}
 
 /*-- Addendum Animation --*/
 

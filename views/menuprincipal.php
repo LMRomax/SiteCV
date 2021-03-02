@@ -49,7 +49,7 @@
 <div class="responsive-mobile-nav">
     <nav class="navigation-menu navigation-menu--responsive">
         <a href="javascript:void(0);" id="mobile-pres">
-            <span>Présentation</span>
+            <span class="active">Présentation</span>
         </a>
 
         <a href="javascript:void(0);" id="mobile-comp">
