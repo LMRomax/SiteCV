@@ -216,7 +216,7 @@
 }
 
 .menu--nav {
-    background: #3498db;
+    background: #34495e;
     padding: 16px;
     color: #ecf0f1;
 }
@@ -288,7 +288,7 @@
 
 .responsive-mobile-nav {
     visibility: hidden;
-    background: #3498db;
+    background: #34495e;
     padding: 16px;
     color: #ecf0f1;
     overflow:hidden;
@@ -322,7 +322,7 @@
     width: 75px!important;
     height: 30px!important;
     z-index: 1;
-    background: #3498db!important;
+    background: #34495e!important;
 }
 
 .slick-prev:before {
@@ -342,7 +342,8 @@
 .data-card {
     position: relative;
     background: #ecf0f1;
-    width: 100%;
+    width: 470px;
+    height: 470px;
     margin: auto;
     overflow: hidden;
     border: none;
@@ -353,10 +354,51 @@
     width: 100%;
     text-align: center;
     color: #fff;
-    background: #3498db;
+    background: #34495e;
     font-family: Raleway-Bold;
     text-transform: uppercase;
     font-size: 32px;
+}
+
+.card-content {
+    padding: 24px;
+}
+
+.img-presentation img {
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.big-title {
+    background: #e74c3c;
+    border-radius: 2px;
+    padding: 16px;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    color: #fff;
+    font-family: Raleway-Black;
+}
+
+.description {
+    text-align: justify;
+}
+
+.social-network-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+}
+
+.social-network-content a {
+    color: #34495e;
+    font-size: 28px;
+    margin-right: 24px;
+}
+
+.social-network-content a:last-child {
+    margin-right: 0;
 }
 
 /* 2.1 Présentation */
