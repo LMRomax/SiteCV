@@ -20,11 +20,11 @@
 
 <div class="menu--nav">
     <nav class="navigation-menu">
-        <a href="#presjavascript:void(0);" id="element-pres">
-            <span class="active">Présentation</span>
+        <a href="javascript:void(0);">
+            <span class="active" id="element-pres">Présentation</span>
         </a>
 
-        <a href="#comjavascript:void(0);" id="element-comp">
+        <a href="javascript:void(0);" id="element-comp">
             <span>Compétences</span>
         </a>
 
@@ -32,11 +32,11 @@
             <span>Projets</span>
         </a>
 
-        <a href="#expjavascript:void(0);" id="element-xp">
+        <a href="javascript:void(0);" id="element-xp">
             <span>Expériences</span>
         </a>
 
-        <a href="#rejavascript:void(0);" id="element-refs">
+        <a href="javascript:void(0);" id="element-refs">
             <span>Références</span>
         </a>
 

@@ -5,7 +5,9 @@ $('.navigation-menu a').click(function() {
 
 // Go to presentation
 $('#element-pres').click(function() {
-    
+    $('html, body').animate({
+        scrollTop: $("#presentation").offset().top
+    }, 1000);
 });
 
 // Go to comp
