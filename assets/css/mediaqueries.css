@@ -65,3 +65,11 @@
 
 /* 2.2 Compétences */
 
+@media screen and (max-width: 768px) {
+    .comp-card {
+        margin-bottom: 16px;
+    }
+    .competences-row {
+        margin-bottom: 0px;
+    }
+}

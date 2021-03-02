@@ -1,11 +1,11 @@
 <section id="competences" class="container section-wrapper">
-    <div class="big-title">
+    <h1 class="big-title big--title-m32">
         Compétences
-    </div>
+    </h1>
 
     <div class="competences-lists">
         <div class="row competences-row">
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">PHP</div>
                     <div class="comp-handle">
@@ -17,7 +17,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">Laravel</div>
                     <div class="comp-handle">
@@ -29,7 +29,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">Symfony</div>
                     <div class="comp-handle">
@@ -43,7 +43,7 @@
             </div>
         </div>
         <div class="row competences-row">
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">JQuery</div>
                     <div class="comp-handle">
@@ -55,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">Javascript</div>
                     <div class="comp-handle">
@@ -67,7 +67,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
+            <div class="col-md-4 comp-card">
                 <div class="comp--inner">
                     <div class="comp-name">React</div>
                     <div class="comp-handle">

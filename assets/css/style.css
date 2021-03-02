@@ -406,8 +406,8 @@
     background: #34495e;
     color: #fff;
     font-family: Raleway-Bold;
-    font-size: 24px;
-    padding: 12px;
+    font-size: 20px;
+    padding: 8px;
 }
 
 .comp-handle {
@@ -440,6 +440,10 @@
     font-family: Raleway-Medium;
     -webkit-transition: width 2.5s ease;
     transition: width 2.5s ease;
+}
+
+.big--title-m32 {
+    margin-bottom: 32px;
 }
 
 /*-- Addendum Animation --*/

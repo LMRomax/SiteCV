@@ -4,9 +4,9 @@
             <img src="assets/images/lm.jpg" alt="Maxence Lemaître">
         </div>
         <div class="col-md-8 description-presentation">
-            <div class="big-title">
+            <h1 class="big-title">
                 Présentation
-            </div>
+            </h1>
             <div class="description">
                 Passionné par l'informatique depuis mon adolescence, j'ai décidé d'effectuer mes études dans ce domaine.
                 La découverte de la programmation web fut pour moi une révélation, et j'ai alors décidé de poursuivre mon
