@@ -12,12 +12,16 @@ $('#element-pres').click(function() {
 
 // Go to comp
 $('#element-comp').click(function() {
-
+    $('html, body').animate({
+        scrollTop: $("#competences").offset().top
+    }, 1000);
 });
 
 // Go to portfolio
 $('#element-portfolio').click(function() {
-
+    $('html, body').animate({
+        scrollTop: $("#portfolio").offset().top
+    }, 1000);
 });
 
 // Go to xp

@@ -13,7 +13,9 @@
                                 SpinForWin
                             </div>
                             <div class="plus-icon">
-                                <img src="assets/images/lupe.png" alt="Plus icon">
+                                <a href="https://spinforwin.fr/">
+                                    <i class="fas fa-link"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -23,11 +25,11 @@
                 <div class="img-projet yoo-projet">
                     <div class="img-projet-mask">
                         <div class="img-projet-mask--content">
-                            <div class="img-projet-mask--title">
+                            <div class="img-projet-mask--title img-projet-mask--title-wborder">
                                 Yoo (Your Own Organization)
                             </div>
-                            <div class="plus-icon">
-                                <img src="assets/images/lupe.png" alt="Plus icon">
+                            <div class="description-project--not-online">
+                                Yoo est un projet étudiant permettant de gérer ses contacts professionnels.
                             </div>
                         </div>
                     </div>
@@ -39,7 +41,9 @@
                                 Dubaï Jetski
                             </div>
                             <div class="plus-icon">
-                                <img src="assets/images/lupe.png" alt="Plus icon">
+                                <a href="https://www.dubai-jetski.com/">
+                                    <i class="fas fa-link"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -49,11 +53,11 @@
                 <div class="img-projet bell-projet">
                     <div class="img-projet-mask">
                         <div class="img-projet-mask--content">
-                            <div class="img-projet-mask--title">
+                            <div class="img-projet-mask--title img-projet-mask--title-wborder">
                                 Bell
                             </div>
-                            <div class="plus-icon">
-                                <img src="assets/images/lupe.png" alt="Plus icon">
+                            <div class="description-project--not-online">
+                                Ce projet consiste en une refonte complète du système d'échange de Bell Canada.
                             </div>
                         </div>
                     </div>
@@ -65,7 +69,9 @@
                                 British Telecom
                             </div>
                             <div class="plus-icon">
-                                <img src="assets/images/lupe.png" alt="Plus icon">
+                                <a href="https://my.bt.com/s/apps/appsorder/customer/index.html#/index?order_ref=&s_cid=con_FURL_myorder&s_cid=con_FURL_ordertracking">
+                                    <i class="fas fa-link"></i>
+                                </a>
                             </div>
                         </div>
                     </div>
