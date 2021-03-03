@@ -59,6 +59,3 @@ $(window).resize(function () {
         $('.responsive-mobile-nav').css('visibility', 'hidden');
     }
 });
-
-// Compétences load progress bar
-
