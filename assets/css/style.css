@@ -11,6 +11,7 @@
 *   2.1 Présentation
 *   2.2 Compétences
 *   2.3 Portfolio
+*   2.4 Expériences pro
 *
 * Addendum Animation
 ****************************/
@@ -599,6 +600,46 @@
     font-size: 13px;
     color: #fff;
     font-family: Raleway-Light;
+}
+
+/* 2.4 Expériences pro */
+
+.xp-card {
+    position: relative;
+}
+
+.xp--point-line {
+    position: absolute;
+    height: 100%;
+    margin-right: 16px;
+}
+
+.xp--point-line .xp-point {
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #e74c3c;
+}
+
+.xp--point-line .xp-line {
+    position: absolute;
+    left: 7px;
+    top: 0;
+    border-left: 2px solid #34495e;
+    height: 100%;
+}
+
+.xps-timeline p {
+    margin-bottom: 0;
+}
+
+.xp-content {
+    margin-left: 32px;
+    padding-bottom: 24px;
 }
 
 /*-- Addendum Animation --*/

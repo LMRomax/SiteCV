@@ -8,6 +8,8 @@
 * 2.0 Content
 *   2.1 Présentation
 *   2.2 Compétences
+*   2.3 Portfolio
+*   2.4 Expériences pro
 *
 ****************************/
 
@@ -64,6 +66,29 @@
 /* 2.1 Présentation */
 
 /* 2.2 Compétences */
+
+@media screen and (max-width: 768px) {
+    .comp-card {
+        margin-bottom: 16px;
+    }
+    .competences-row {
+        margin-bottom: 0px;
+    }
+}
+
+/* 2.3 Portfolio */
+
+@media screen and (max-width: 768px) {
+    .portfolio-card .spinforwin-projet {
+        height: 250px;
+        margin-bottom: 16px;
+    }
+    .portfolio-card .img-projet {
+        height: 250px;
+    }
+}
+
+/* 2.4 Compétences */
 
 @media screen and (max-width: 768px) {
     .comp-card {
