@@ -27,11 +27,13 @@
                     </div>
                     <p class="xp-desxription">
                         SBE Global est la Business Unit informatique du groupe SBE. SBE Global est l'éditeur de la solution GlobalCare, plateforme logicielle de gestion du service après-vente et de la relation client multi-canal, commercialisée en mode SaaS (software-as-a-Service). SBE Global, qui fait partie du groupe SBE (2500 personnes dans le monde), a son pôle principal de développement informatique à Euratechnologies (Lille).
-
+                        <br><br>
                         Objectifs de la mission :
-
+                        <br><br>
                         ➔ Mise en place des interactions avec l'API GlobalCare.
+                        <br>
                         ➔ Intégration des maquettes en Front-End.
+                        <br>
                         ➔ Gestion des animations.
                     </p>
                 </div>
@@ -61,11 +63,13 @@
                     </div>
                     <p class="xp-desxription">
                         SBE Global est la Business Unit informatique du groupe SBE. SBE Global est l'éditeur de la solution GlobalCare, plateforme logicielle de gestion du service après-vente et de la relation client multi-canal, commercialisée en mode SaaS (software-as-a-Service). SBE Global, qui fait partie du groupe SBE (2500 personnes dans le monde), a son pôle principal de développement informatique à Euratechnologies (Lille).
-
+                        <br>
                         Objectifs de la mission :
-
+                        <br>
                         ➔ Mise en place des interactions avec l'API GlobalCare.
+                        <br>
                         ➔ Intégration des maquettes en Front-End.
+                        <br>
                         ➔ Gestion des animations.
                     </p>
                 </div>
