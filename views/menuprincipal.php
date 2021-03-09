@@ -36,6 +36,10 @@
             <span>Expériences</span>
         </a>
 
+        <a href="javascript:void(0);" id="element-formations">
+            <span>Formations</span>
+        </a>
+
         <a href="javascript:void(0);" id="element-refs">
             <span>Références</span>
         </a>
@@ -62,6 +66,10 @@
 
         <a href="javascript:void(0);" id="mobile-xp">
             <span>Experiences</span>
+        </a>
+
+        <a href="javascript:void(0);" id="mobile-formations">
+            <span>Formations</span>
         </a>
 
         <a href="javascript:void(0);" id="mobile-refs">

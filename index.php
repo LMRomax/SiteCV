@@ -43,9 +43,11 @@
     <?php include 'views/competences.php'; ?>
     <?php include 'views/portfolio.php'; ?>
     <?php include 'views/xp.php'; ?>
+    <?php include 'views/formations.php'; ?>
   </div>
 
   <script type="text/javascript" src="assets/js/menu.js"></script>
+  <script type="text/javascript" src="assets/js/animation.js"></script>
   <script type="text/javascript" src="assets/js/responsivemenu.js"></script>
 
 </body>

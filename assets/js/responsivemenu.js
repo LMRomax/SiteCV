@@ -37,7 +37,20 @@ $('#mobile-portfolio').click(function() {
 
 // Go to xp
 $('#mobile-xp').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#xp").offset().top
+    }, 1000);
+});
 
+$('#mobile-formations').click(function() {
+    $('html, body').animate({
+        scrollTop: $("#formations").offset().top
+    }, 1000);
+});
+
+// Go to refs
+$('#mobile-refs').click(function() {
+    
 });
 
 // Go to refs

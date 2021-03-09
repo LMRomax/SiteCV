@@ -37,7 +37,16 @@ $('#element-portfolio').click(function () {
 
 // Go to xp
 $('#element-xp').click(function () {
+    $('html, body').animate({
+        scrollTop: $("#xp").offset().top
+    }, 1000);
+});
 
+// Go to formations
+$('#element-formations').click(function () {
+    $('html, body').animate({
+        scrollTop: $("#formations").offset().top
+    }, 1000);
 });
 
 // Go to refs
