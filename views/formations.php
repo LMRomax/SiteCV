@@ -11,7 +11,7 @@
                     <div class="xp-line"></div>
                 </div>
                 <div class="xp-content">
-                    <div class="xp-details">
+                    <div class="xp-details formations-details">
                         <p class="xp-enterprise">
                             Licence professionnels TII ( Technologies de l'informations de d'internet )
                         </p>
@@ -39,7 +39,7 @@
                     <div class="xp-line"></div>
                 </div>
                 <div class="xp-content">
-                    <div class="xp-details">
+                    <div class="xp-details formations-details">
                         <p class="xp-enterprise">
                             DEUST IOSI ( Informatique d'Organisation des Systèmes d'Information )
                         </p>

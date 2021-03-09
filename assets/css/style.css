@@ -12,6 +12,7 @@
 *   2.2 Compétences
 *   2.3 Portfolio
 *   2.4 Expériences pro
+*   2.5 Formations
 *
 * Addendum Animation
 ****************************/
@@ -757,6 +758,12 @@ button:focus {
 .button--xp_readmore:focus {
     outline: 0px dotted;
     outline: 0px auto -webkit-focus-ring-color;
+}
+
+/* 2.5 Formations */
+
+.xp-details:after, .formations-details:before {
+    top: 14%;
 }
 
 /*-- Addendum Animation --*/
