@@ -28,6 +28,11 @@ $(document).ready(function () {
             $('.menu--nav').css('display', 'block');
             $('.responsive-mobile-nav').css('visibility', 'hidden');
         }
+
+        $('.refs-carousel-inner').slick({
+            infinite: true,
+            adaptiveHeight: true
+        });
     }, 1000);
 });
 

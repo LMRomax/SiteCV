@@ -44,6 +44,7 @@
     <?php include 'views/portfolio.php'; ?>
     <?php include 'views/xp.php'; ?>
     <?php include 'views/formations.php'; ?>
+    <?php include 'views/refs.php'; ?>
   </div>
 
   <script type="text/javascript" src="assets/js/menu.js"></script>

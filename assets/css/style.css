@@ -13,6 +13,7 @@
 *   2.3 Portfolio
 *   2.4 Expériences pro
 *   2.5 Formations
+*   2.6 Références
 *
 * Addendum Animation
 ****************************/
@@ -764,6 +765,61 @@ button:focus {
 
 .xp-details:after, .formations-details:before {
     top: 14%;
+}
+
+/* 2.6 Références */
+
+.refs-photo-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.refs-photo-text img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+
+.refs-photo-text p {
+    margin-bottom: 8px;
+}
+
+.refs-photo-text p:last-child {
+    margin-bottom: 0;
+}
+
+.refs-carousel {
+    position: relative;
+    background: #e9ecef;
+    padding: 32px 54px;
+    border-radius: 2px;
+}
+
+.refs-carousel .slick-prev, .refs-carousel .slick-next {
+    width: 30px!important;
+    height: 30px!important;
+    z-index: 1;
+    background: transparent!important;
+}
+
+.refs-carousel .slick-prev:before, .refs-carousel .slick-next:before {
+    font-family: 'slick';
+    font-size: 20px;
+    line-height: 1;
+    opacity: 1;
+    color: #34495e;
+    font-weight: 600;
+}
+
+.refs-carousel .slick-prev {
+    left: -42px;
+}
+
+.refs-carousel .slick-next {
+    right: -42px;
 }
 
 /*-- Addendum Animation --*/
