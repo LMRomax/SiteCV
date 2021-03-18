@@ -104,3 +104,11 @@
 /* 2.5 Formations */
 
 /* 2.6 Références */
+
+@media screen and (max-width: 768px) {
+    .refs-photo-text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
