@@ -67,4 +67,10 @@
             </div>
         </div>
     </div>
+
+    <div class="find-me-on-malt">
+        <a href="https://www.malt.fr/profile/maxencelemaitre#profileMissions">
+            Plus d'avis
+        </a>
+    </div>
 </section>
