@@ -52,31 +52,31 @@
 
 <div class="responsive-mobile-nav">
     <nav class="navigation-menu navigation-menu--responsive">
-        <a href="javascript:void(0);" id="mobile-pres">
+        <a href="javascript:void(0);" id="mobile-pres" class="responsive--link-menu">
             <span class="active">Présentation</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-comp">
+        <a href="javascript:void(0);" id="mobile-comp" class="responsive--link-menu">
             <span>Compétences</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-portfolio">
+        <a href="javascript:void(0);" id="mobile-portfolio" class="responsive--link-menu">
             <span>Projets</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-xp">
+        <a href="javascript:void(0);" id="mobile-xp" class="responsive--link-menu">
             <span>Experiences</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-formations">
+        <a href="javascript:void(0);" id="mobile-formations" class="responsive--link-menu">
             <span>Formations</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-refs">
+        <a href="javascript:void(0);" id="mobile-refs" class="responsive--link-menu">
             <span>Références</span>
         </a>
 
-        <a href="javascript:void(0);" id="mobile-contact">
+        <a href="javascript:void(0);" id="mobile-contact" class="responsive--link-menu">
             <span>Contact</span>
         </a>
     </nav>

@@ -45,11 +45,20 @@
     <?php include 'views/xp.php'; ?>
     <?php include 'views/formations.php'; ?>
     <?php include 'views/refs.php'; ?>
+    <?php include 'views/contact.php'; ?>
+    <footer>
+      © Lemaître Maxence
+    </footer>
   </div>
 
   <script type="text/javascript" src="assets/js/menu.js"></script>
   <script type="text/javascript" src="assets/js/animation.js"></script>
   <script type="text/javascript" src="assets/js/responsivemenu.js"></script>
+  <script type="text/javascript" src="assets/js/textareaAutoSize.js"></script>
+  <script type="text/javascript">
+    autosize(document.querySelectorAll('textarea'));
+  </script>
 
 </body>
+
 </html>

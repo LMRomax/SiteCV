@@ -51,10 +51,14 @@ $('#element-formations').click(function () {
 
 // Go to refs
 $('#element-refs').click(function () {
-
+    $('html, body').animate({
+        scrollTop: $("#refs").offset().top
+    }, 1000);
 });
 
 // Go to contact
 $('#element-contact').click(function () {
-
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
 });

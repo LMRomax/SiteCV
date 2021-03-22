@@ -14,6 +14,9 @@
 *   2.4 Expériences pro
 *   2.5 Formations
 *   2.6 Références
+*   2.7 Contact
+*
+* Footer
 *
 * Addendum Animation
 ****************************/
@@ -147,7 +150,6 @@ button:focus {
 
 .is-load {
     display: none;
-    margin-bottom: 40px;
 }
 
 .loading-bounce {
@@ -657,26 +659,26 @@ button:focus {
 }
 
 .xp-details:after, .xp-details:before {
-	right: 100%;
-	top: 10%;
-	border: solid transparent;
-	content: "";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
+    right: 100%;
+    top: 10%;
+    border: solid transparent;
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
 }
 
 .xp-details:after {
-	border-right-color: #e9ecef;
+    border-right-color: #e9ecef;
     border-width: 3px;
-	margin-top: -3px;
+    margin-top: -3px;
 }
 
 .xp-details:before {
-	border-right-color: #e9ecef;
+    border-right-color: #e9ecef;
     border-width: 9px;
-	margin-top: -9px;
+    margin-top: -9px;
 }
 
 .xps-timeline .xp-enterprise {
@@ -714,7 +716,7 @@ button:focus {
 
 .xp-more--toread {
     height: 0;
-    transform: scaleY(0);    
+    transform: scaleY(0);
     transform-origin: top;
     transition: transform 0.25s ease;
 }
@@ -855,6 +857,135 @@ button:focus {
     -moz-transition: 0.3s;
 }
 
+/* 2.7 Contact */
+
+.social-network--contact-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+}
+
+.social-network--contact p {
+    margin-bottom: 8px;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+}
+
+.social-network--contact a:first-child {
+    margin-right: 16px;
+}
+
+.social-network--contact a {
+    display: block;
+    min-width: 200px;
+    max-width: 250px;
+    color: #fff;
+    padding: 8px 12px;
+    font-size: 16px;
+    font-family: Raleway-Bold;
+    border-radius: 2px;
+    text-align: center;
+    transition: 0.3s;
+    -webkit-transition: 0.3;
+}
+
+.social-network--contact a:hover {
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px 1px rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.social-network--contact .malt-link {
+    background: #ff5c57;
+}
+
+.social-network--contact .linkedin-link {
+    background: #0A66C2;
+}
+
+.block-contact p {
+    margin-bottom: 8px;
+    font-family: Raleway-Regular;
+    font-size: 16px;
+}
+
+.block-card-contact {
+    background: #e9ecef;
+    padding: 24px;
+    border-radius: 2px;
+}
+
+.block-card-contact input {
+    border: none;
+    border-bottom: 2px solid #34495e;
+    border-radius: 0;
+}
+
+.block-card-contact input:focus {
+    outline: 0;
+    border-bottom: 2px solid #e74c3c;
+    box-shadow: 0 0 0 0rem rgb(0 123 255 / 25%);
+}
+
+.block-card-contact textarea {
+    width: 100%;
+    resize: none;
+    border: none;
+    border-bottom: 2px solid #34495e;
+    border-radius: 0;
+    padding: .375rem .75rem;
+    height: 38px;
+}
+
+.block-card-contact textarea:focus {
+    outline: 0;
+}
+
+.submit-contact {
+    min-width: 175px;
+    border-radius: 2px;
+    color: #fff;
+    background: #e74c3c;
+    font-size: 16px;
+    font-family: Raleway-Bold;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.submit-contact:hover {
+    transition: 0.3s;
+    -webkit-transition: 0.3;
+    text-decoration: none;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px 1px rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.form-group--submit {
+    text-align: right;
+}
+
+#contact {
+    margin-bottom: 64px;
+}
+
+/*-- Footer --*/
+
+footer {
+    background: #e74c3c;
+    color: #fff;
+    font-size: 16px;
+    font-family: Raleway-Italic;
+    padding: 16px 24px;
+}
+
 /*-- Addendum Animation --*/
 
 /* animation spin for loader */
@@ -930,5 +1061,45 @@ button:focus {
     }
     to {
         transform: translateY(-10px);
+    }
+}
+
+/* Come from left */
+
+/* Enter in home from left */
+
+@keyframes inHomeFromLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-o-keyframes inHomeFromLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes inHomeFromLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes inHomeFromLeft {
+    0% {
+        -webkit-transform: translateX(-100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
     }
 }

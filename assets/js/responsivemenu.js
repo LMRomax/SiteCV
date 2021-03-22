@@ -9,8 +9,9 @@ $(window).scroll(function () {
 });
 
 // Animation menu elements
-$('.navigation-menu--responsive a').click(function() {
-    $('.navigation-menu--responsive a span').removeClass('active');
+$('.responsive--link-menu').click(function() {
+    console.log(this);
+    $('.responsive--link-menu span').removeClass('active');
     $(this).find('span').addClass('active');
 });
 
@@ -42,6 +43,7 @@ $('#mobile-xp').click(function() {
     }, 1000);
 });
 
+// Go to formations
 $('#mobile-formations').click(function() {
     $('html, body').animate({
         scrollTop: $("#formations").offset().top
@@ -50,15 +52,14 @@ $('#mobile-formations').click(function() {
 
 // Go to refs
 $('#mobile-refs').click(function() {
-    
-});
-
-// Go to refs
-$('#mobile-refs').click(function() {
-    
+    $('html, body').animate({
+        scrollTop: $("#refs").offset().top
+    }, 1000);
 });
 
 // Go to contact
 $('#mobile-contact').click(function() {
-
+    $('html, body').animate({
+        scrollTop: $("#contact").offset().top
+    }, 1000);
 });
