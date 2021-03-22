@@ -10,7 +10,6 @@ $(window).scroll(function () {
 
 // Animation menu elements
 $('.responsive--link-menu').click(function() {
-    console.log(this);
     $('.responsive--link-menu span').removeClass('active');
     $(this).find('span').addClass('active');
 });

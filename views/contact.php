@@ -23,7 +23,7 @@
             Sinon utilisez ce formulaire de contact :
         </p>
         <div class="block-card-contact">
-            <form action="#" method="post">
+            <form action="controller/mailsender.php" method="post">
                 <div class="row">
                     <div class="form-group col-md-6">
                         <label for="name">Nom</label>
