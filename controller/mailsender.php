@@ -1,44 +1,47 @@
 <?php
 
-if(isset($_POST['envoyer'])){
-  if(!empty($_POST['rsName']) AND !empty($_POST['rsEmail']) AND !empty($_POST['rsSubject']) AND !empty($_POST['rsMessage'])){
+session_start();
 
-    $email = htmlspecialchars($_POST['rsEmail']);
-    $nom = htmlspecialchars($_POST['rsName']);
-    $sujet = htmlspecialchars($_POST['rsSubject']);
-    $corps = htmlspecialchars($_POST['rsMessage']);
+if (
+  !empty($_POST['name']) and !empty($_POST['firstname'])
+  and !empty($_POST['email']) and !empty($_POST['phone']) and !empty($_POST['message'])
+) {
 
-    if(filter_var($_POST['rsEmail'],FILTER_VALIDATE_EMAIL)){
+  $email = htmlspecialchars($_POST['email']);
+  $nom = htmlspecialchars($_POST['name']);
+  $sujet = "Demande via site CV";
+  $phone = htmlspecialchars($_POST['phone']);
+  $corps = htmlspecialchars($_POST['rsMessage']);
 
-      $destinataire = "maxencectmd.lemaitre@gmail.com";
-      $sujet = "Sujet : ".$sujet. " provenant de : ".$nom ;
-      $entete = "From: lmaxence.fr" ;
+  if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
 
-      // Le lien d'activation est composé du login(log) et de la clé(cle)
-      $message = $corps.'
+    $destinataire = "maxencectmd.lemaitre@gmail.com";
+    $sujet = "Sujet : " . $sujet . " provenant de : " . $nom;
+    $entete = "From: lmaxence.fr";
+
+    // Le lien d'activation est composé du login(log) et de la clé(cle)
+    $message = $corps . '
       ---------------
       Mail provenant de lmaxence.fr.';
 
-      //mail($destinataire, $sujet, $message, $entete);
+    //mail($destinataire, $sujet, $message, $entete);
 
-      if(mail($destinataire, $sujet, $message, $entete)){// Envoi du mail
-        /*?><h5 class="validinscription"><?php echo 'Inscription enregistrée. Vérifiez votre boîte mail et vos spams !'; ?></h5><?php*/
-        header('location:index.php?error=Mail envoyé avec succés !');
-      }
-      else{
-        header('location:index.php?error=Attention, le mail n\'a pas été envoyé  !');
-      }
+    if (mail($destinataire, $sujet, $message, $entete)) { // Envoi du mail
+      $_SESSION['success-message'] = "Mail envoyé avec succés !";
+      header('location:sitecv/index.php');
+      die();
+    } else {
+      $_SESSION['error-message'] = "Attention, le mail n\'a pas été envoyé";
+      header('location:/sitecv/index.php');
+      die();
     }
-    else{
-      header('location:index.php?error=Le format de votre adresse mail n\'est pas valide !');
-    }
+  } else {
+    $_SESSION['error-message'] = "Le format de votre adresse mail n\'est pas valide !";
+    header('location:/sitecv/index.php');
+    die();
   }
-  else{
-    header('location:index.php?error=Veuillez remplir tous les champs !');
-  }
+} else {
+  $_SESSION['error-message'] = "Veuillez remplir tous les champs !";
+  header('location:/sitecv/index.php');
+  die();
 }
-else{
-  header('location:index.php?error=Veuillez remplir les champs !');
-}
-
-?>

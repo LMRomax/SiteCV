@@ -943,6 +943,7 @@ button:focus {
 
 .block-card-contact textarea:focus {
     outline: 0;
+    border: 2px solid #e74c3c;
 }
 
 .submit-contact {
@@ -974,6 +975,33 @@ button:focus {
 
 #contact {
     margin-bottom: 64px;
+}
+
+.success-contact, .error-contact {
+    position: sticky!important;
+    z-index: 3;
+    bottom: 25px;
+    left: 16px;
+    padding: 24px;
+    color: #fff;
+    min-width: 200px;
+    max-width: 250px;
+    text-align: center;
+}
+
+.success-contact .close-box-contact, .error-contact .close-box-contact {
+    position: absolute;
+    top: 2px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.success-contact {
+    background: #28a745;
+}
+
+.error-contact {
+    background: #dc3545;
 }
 
 /*-- Footer --*/

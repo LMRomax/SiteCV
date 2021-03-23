@@ -38,6 +38,7 @@
   </div>
 
   <div id="is-load" class="is-load" style="display: none;">
+    <?php session_start(); ?>
     <?php include 'views/menuprincipal.php'; ?>
     <?php include 'views/presentation.php'; ?>
     <?php include 'views/competences.php'; ?>
@@ -46,14 +47,36 @@
     <?php include 'views/formations.php'; ?>
     <?php include 'views/refs.php'; ?>
     <?php include 'views/contact.php'; ?>
+
+    <?php if(isset($_SESSION['error-message']) 
+    && !empty($_SESSION['error-message']) 
+    && $_SESSION['error-message'] != null) : ?>
+        <div class="error-contact">
+          <div class="close-box-contact">&times</div>
+          <?= $_SESSION['error-message']; ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if(isset($_SESSION['success-message']) 
+    && !empty($_SESSION['success-message']) 
+    && $_SESSION['success-message'] != null) : ?>
+        <div class="success-contact">
+          <div class="close-box-contact">&times</div>
+          <?= $_SESSION['success-message']; ?>
+        </div>
+    <?php endif; ?>
+
+    <?php session_destroy(); ?>
+
     <footer>
       © Lemaître Maxence
     </footer>
   </div>
 
   <script type="text/javascript" src="assets/js/menu.js"></script>
-  <script type="text/javascript" src="assets/js/animation.js"></script>
   <script type="text/javascript" src="assets/js/responsivemenu.js"></script>
+  <script type="text/javascript" src="assets/js/animation.js"></script>
+  <script type="text/javascript" src="assets/js/flashMessage.js"></script>
   <script type="text/javascript" src="assets/js/textareaAutoSize.js"></script>
   <script type="text/javascript">
     autosize(document.querySelectorAll('textarea'));
