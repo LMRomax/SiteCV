@@ -1016,6 +1016,72 @@ footer {
 
 /*-- Addendum Animation --*/
 
+#competences {
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+}
+
+#competences.showed {
+    animation: 0.6s ease-in-out inHomeFromRight;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#portfolio {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#portfolio.showed {
+    animation: 0.6s ease-in-out inHomeFromLeft;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#xp {
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+}
+
+#xp.showed {
+    animation: 0.6s ease-in-out inHomeFromRight;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#formations {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#formations.showed {
+    animation: 0.6s ease-in-out inHomeFromLeft;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#refs {
+    transform: translateX(200%);
+    -webkit-transform: translateX(200%);
+}
+
+#refs.showed {
+    animation: 0.6s ease-in-out inHomeFromRight;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
+#contact {
+    transform: translateX(-200%);
+    -webkit-transform: translateX(-200%);
+}
+
+#contact.showed {
+    animation: 0.6s ease-in-out inHomeFromLeft;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+}
+
 /* animation spin for loader */
 
 @-webkit-keyframes spin {
@@ -1098,7 +1164,7 @@ footer {
 
 @keyframes inHomeFromLeft {
     0% {
-        -webkit-transform: translateX(-100%);
+        -webkit-transform: translateX(-200%);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -1107,7 +1173,7 @@ footer {
 
 @-o-keyframes inHomeFromLeft {
     0% {
-        -webkit-transform: translateX(-100%);
+        -webkit-transform: translateX(-200%);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -1116,7 +1182,7 @@ footer {
 
 @-webkit-keyframes inHomeFromLeft {
     0% {
-        -webkit-transform: translateX(-100%);
+        -webkit-transform: translateX(-200%);
     }
     100% {
         -webkit-transform: translateY(0);
@@ -1125,7 +1191,47 @@ footer {
 
 @-moz-keyframes inHomeFromLeft {
     0% {
-        -webkit-transform: translateX(-100%);
+        -webkit-transform: translateX(-200%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+/* Come from right */
+
+/* Enter in home from right */
+
+@keyframes inHomeFromRight {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-o-keyframes inHomeFromRight {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-webkit-keyframes inHomeFromRight {
+    0% {
+        -webkit-transform: translateX(100%);
+    }
+    100% {
+        -webkit-transform: translateY(0);
+    }
+}
+
+@-moz-keyframes inHomeFromRight {
+    0% {
+        -webkit-transform: translateX(100%);
     }
     100% {
         -webkit-transform: translateY(0);

@@ -8,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
   <title>Maxence Lemaitre - Curriculum Vitae</title>
-  <link rel="icon" type="image/png" href="assets/images/favicon.png" />
+  <link rel="icon" type="image/png" href="assets/images/favicon.ico" />
 
   <!-- Styles -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
@@ -42,11 +42,17 @@
   <div id="is-load" class="is-load" style="display: none;">
     <?php include 'views/menuprincipal.php'; ?>
     <?php include 'views/presentation.php'; ?>
+      <div id="ancreCompetences" class="ancre"></div>
     <?php include 'views/competences.php'; ?>
+      <div id="ancrePortfolio" class="ancre"></div>
     <?php include 'views/portfolio.php'; ?>
+      <div id="ancreXp" class="ancre"></div>
     <?php include 'views/xp.php'; ?>
+      <div id="ancreFormations" class="ancre"></div>
     <?php include 'views/formations.php'; ?>
+      <div id="ancreRefs" class="ancre"></div>
     <?php include 'views/refs.php'; ?>
+      <div id="ancreContact" class="ancre"></div>
     <?php include 'views/contact.php'; ?>
 
     <?php if(isset($_SESSION['error-message']) 
