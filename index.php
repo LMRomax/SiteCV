@@ -1,3 +1,5 @@
+<?php session_start(); ?> 
+
 <!DOCTYPE html>
 <html lang="fr" class="theme-skin-light cssall cssgradients rgba opacity supports textshadow cssanimations bgrepeatround bgrepeatspace boxshadow csstransforms csstransforms3d csstransitions desktop theme-color-07aaf5" style>
 
@@ -38,7 +40,6 @@
   </div>
 
   <div id="is-load" class="is-load" style="display: none;">
-    <?php session_start(); ?>
     <?php include 'views/menuprincipal.php'; ?>
     <?php include 'views/presentation.php'; ?>
     <?php include 'views/competences.php'; ?>

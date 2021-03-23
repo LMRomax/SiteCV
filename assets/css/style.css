@@ -978,7 +978,7 @@ button:focus {
 }
 
 .success-contact, .error-contact {
-    position: sticky!important;
+    position: fixed!important;
     z-index: 3;
     bottom: 25px;
     left: 16px;
