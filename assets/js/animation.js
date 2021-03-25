@@ -5,37 +5,37 @@ $('.button--xp_readmore').click(function() {
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreCompetences").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancreCompetences").offset().top - parseInt(600)) {
         $('#competences').addClass('showed');
     }
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancrePortfolio").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancrePortfolio").offset().top - parseInt(600)) {
         $('#portfolio').addClass('showed');
     }
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreXp").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancreXp").offset().top - parseInt(600)) {
         $('#xp').addClass('showed');
     }
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreFormations").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancreFormations").offset().top - parseInt(600)) {
         $('#formations').addClass('showed');
     }
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreRefs").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancreRefs").offset().top - parseInt(600)) {
         $('#refs').addClass('showed');
     }
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreContact").offset().top - parseInt(400)) {
+    if ($(window).scrollTop() > $("#ancreContact").offset().top - parseInt(600)) {
         $('#contact').addClass('showed');
     }
 });

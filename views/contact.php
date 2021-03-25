@@ -9,10 +9,10 @@
         </p>
 
         <div class="social-network--contact-button">
-            <a href="#" class="malt-link">
+            <a href="https://www.malt.fr/profile/maxencelemaitre" class="malt-link">
                 Malt
             </a>
-            <a href="#" class="linkedin-link">
+            <a href="https://www.linkedin.com/in/maxence-lemaitre-100a96164/" class="linkedin-link">
                 Linkedin
             </a>
         </div>
