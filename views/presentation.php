@@ -13,6 +13,11 @@
                 parcours dans cette voie. Véritable passionné, désireux de produire le meilleur travail qui soit, je suis
                 par la suite devenu autodidacte et j'ai également fondé mon auto-entreprise.
             </div>
+            <div class="cv-button">
+                <a href="assets/pdf/Lemaitre_Maxence_CV_05062019.pdf" download>
+                    Télécharger mon CV
+                </a>
+            </div>
             <div class="social-network-content">
                 <a href="https://www.linkedin.com/in/maxence-lemaitre-100a96164/">
                     <i class="fab fa-linkedin"></i>
