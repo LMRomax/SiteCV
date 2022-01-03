@@ -7,7 +7,7 @@
         <div class="refs-carousel-inner">
             <div class="refs-content">
                 <div class="refs-photo-text">
-                    <img src="assets/images/Refs/JonathanBenmouhar.jpg" alt="Jonathan Benmouhar">
+                    <img src="assets/images/Refs/JonathanBenmouhar.webp" alt="Jonathan Benmouhar">
                     <div class="refs-text">
                         <p>
                             <strong>
@@ -28,7 +28,7 @@
 
             <div class="refs-content">
                 <div class="refs-photo-text">
-                    <img src="assets/images/Refs/LaurenceVandeventer.jpg" alt="Laurence Vandeventer">
+                    <img src="assets/images/Refs/LaurenceVandeventer.webp" alt="Laurence Vandeventer">
                     <div class="refs-text">
                         <p>
                             <strong>
@@ -47,7 +47,7 @@
 
             <div class="refs-content">
                 <div class="refs-photo-text">
-                    <img src="assets/images/Refs/batmax.jpg" alt="Batmax">
+                    <img src="assets/images/Refs/batmax.webp" alt="Batmax">
                     <div class="refs-text">
                         <p>
                             <strong>
@@ -69,7 +69,7 @@
     </div>
 
     <div class="find-me-on-malt">
-        <a href="https://www.malt.fr/profile/maxencelemaitre#profileMissions" target="_blank">
+        <a href="https://www.malt.fr/profile/maxencelemaitre#profileMissions" target="_blank" rel="noreferrer">
             Plus d'avis
         </a>
     </div>

@@ -3,7 +3,7 @@
     <div class="intro-presentation">
         <div class="intro-presentation--content">
             <div class="intro-presentation--logo">
-                <img src="assets/images/lm.jpg" alt="Maxence Lemaître">
+                <img src="assets/images/lm.webp" alt="Maxence Lemaître" width="100%" height="100%">
             </div>
 
             <div class="intro-presentation--name">

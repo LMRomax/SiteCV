@@ -23,10 +23,6 @@
 
 /*-- 0.0 Général --*/
 
-body {
-    overflow-x: hidden;
-}
-
 /* Fonts */
 
 @font-face {
@@ -34,6 +30,7 @@ body {
     src: url('../css/fonts/Raleway-Black.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -41,6 +38,7 @@ body {
     src: url('../css/fonts/Raleway-BlackItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -48,6 +46,7 @@ body {
     src: url('../css/fonts/Raleway-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -55,6 +54,7 @@ body {
     src: url('../css/fonts/Raleway-BoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -62,6 +62,7 @@ body {
     src: url('../css/fonts/Raleway-Italic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -69,6 +70,7 @@ body {
     src: url('../css/fonts/Raleway-LightItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -76,6 +78,7 @@ body {
     src: url('../css/fonts/Raleway-Light.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -83,6 +86,7 @@ body {
     src: url('../css/fonts/Raleway-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -90,6 +94,7 @@ body {
     src: url('../css/fonts/Raleway-MediumItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -97,6 +102,7 @@ body {
     src: url('../css/fonts/Raleway-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -104,6 +110,7 @@ body {
     src: url('../css/fonts/Raleway-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -111,6 +118,7 @@ body {
     src: url('../css/fonts/Raleway-SemiBoldItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -118,6 +126,7 @@ body {
     src: url('../css/fonts/Raleway-Thin.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 @font-face {
@@ -125,6 +134,7 @@ body {
     src: url('../css/fonts/Raleway-ThinItalic.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: swap;
 }
 
 button:focus {
@@ -154,6 +164,7 @@ button:focus {
 
 .is-load {
     display: none;
+    overflow-x: hidden;
 }
 
 .loading-bounce {
@@ -325,7 +336,7 @@ button:focus {
 }
 
 .slick-slide:focus, .slick-slide a:focus {
-    outline: 0!important;
+    outline: 0 !important;
 }
 
 .responsive-mobile-nav .slick-prev {
@@ -337,30 +348,30 @@ button:focus {
 }
 
 .slick-prev {
-    -webkit-transform: translate(-30%, -50%)!important;
-    -ms-transform: translate(-30%, -50%)!important;
-    transform: translate(-30%, -50%)!important;
+    -webkit-transform: translate(-30%, -50%) !important;
+    -ms-transform: translate(-30%, -50%) !important;
+    transform: translate(-30%, -50%) !important;
 }
 
 .slick-next {
-    -webkit-transform: translate(30%, -50%)!important;
-    -ms-transform: translate(30%, -50%)!important;
-    transform: translate(30%, -50%)!important;
+    -webkit-transform: translate(30%, -50%) !important;
+    -ms-transform: translate(30%, -50%) !important;
+    transform: translate(30%, -50%) !important;
 }
 
 .slick-prev, .slick-next {
-    width: 75px!important;
-    height: 30px!important;
+    width: 75px !important;
+    height: 30px !important;
     z-index: 1;
-    background: #34495e!important;
+    background: #34495e !important;
 }
 
 .slick-prev:before {
-    content: '\003C'!important;
+    content: '\003C' !important;
 }
 
 .slick-next:before {
-    content: '\003E'!important;
+    content: '\003E' !important;
 }
 
 /*-- 2.0 Content --*/
@@ -422,6 +433,35 @@ button:focus {
 
 .social-network-content a:last-child {
     margin-right: 0;
+}
+
+.cv-button {
+    margin-top: 16px;
+}
+
+.cv-button a {
+    display: block;
+    max-width: 190px;
+    background: #34495e;
+    padding: 12px 16px;
+    color: #fff;
+    font-family: Raleway-Bold;
+    border: none;
+    border-radius: 2px;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+}
+
+.cv-button a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px 1px rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    text-decoration: none;
 }
 
 /* 2.2 Compétences */
@@ -496,23 +536,23 @@ button:focus {
 }
 
 .spinforwin-projet {
-    background: url('../images/portfolio/hnqe3blabfb9mhhiapcw.jpg');
+    background: url('../images/portfolio/hnqe3blabfb9mhhiapcw.webp');
 }
 
 .yoo-projet {
-    background: url('../images/portfolio/ctwvwzcfll0xlldj7ovo.jpg');
+    background: url('../images/portfolio/ctwvwzcfll0xlldj7ovo.webp');
 }
 
 .dubaijetski-projet {
-    background: url('../images/portfolio/cd7r0scso6bxiggsrwhw.jpg');
+    background: url('../images/portfolio/cd7r0scso6bxiggsrwhw.webp');
 }
 
 .bell-projet {
-    background: url('../images/portfolio/2021-01-21-19-05-echange.bell.ca.png');
+    background: url('../images/portfolio/2021-01-21-19-05-echange.bell.ca.webp');
 }
 
 .bt-projet {
-    background: url('../images/portfolio/2021-01-21-19-03-my.bt.com.png');
+    background: url('../images/portfolio/2021-01-21-19-03-my.bt.com.webp');
 }
 
 .img-projet-mask {
@@ -805,10 +845,10 @@ button:focus {
 }
 
 .refs-carousel .slick-prev, .refs-carousel .slick-next {
-    width: 30px!important;
-    height: 30px!important;
+    width: 30px !important;
+    height: 30px !important;
     z-index: 1;
-    background: transparent!important;
+    background: transparent !important;
 }
 
 .refs-carousel .slick-prev:before, .refs-carousel .slick-next:before {
@@ -982,7 +1022,7 @@ button:focus {
 }
 
 .success-contact, .error-contact {
-    position: fixed!important;
+    position: fixed !important;
     z-index: 3;
     bottom: 25px;
     left: 16px;
@@ -1092,6 +1132,7 @@ footer {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -1101,6 +1142,7 @@ footer {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -1110,6 +1152,7 @@ footer {
     0% {
         -webkit-transform: rotate(0deg);
     }
+
     100% {
         -webkit-transform: rotate(360deg);
     }
@@ -1119,6 +1162,7 @@ footer {
     0% {
         transform: rotate(0deg);
     }
+
     100% {
         transform: rotate(360deg);
     }
@@ -1130,6 +1174,7 @@ footer {
     from {
         transform: translateY(0);
     }
+
     to {
         transform: translateY(-10px);
     }
@@ -1139,6 +1184,7 @@ footer {
     from {
         transform: translateY(0);
     }
+
     to {
         transform: translateY(-10px);
     }
@@ -1148,6 +1194,7 @@ footer {
     from {
         transform: translateY(0);
     }
+
     to {
         transform: translateY(-10px);
     }
@@ -1157,6 +1204,7 @@ footer {
     from {
         transform: translateY(0);
     }
+
     to {
         transform: translateY(-10px);
     }
@@ -1170,6 +1218,7 @@ footer {
     0% {
         -webkit-transform: translateX(-200%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1179,6 +1228,7 @@ footer {
     0% {
         -webkit-transform: translateX(-200%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1188,6 +1238,7 @@ footer {
     0% {
         -webkit-transform: translateX(-200%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1197,6 +1248,7 @@ footer {
     0% {
         -webkit-transform: translateX(-200%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1210,6 +1262,7 @@ footer {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1219,6 +1272,7 @@ footer {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1228,6 +1282,7 @@ footer {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }
@@ -1237,6 +1292,7 @@ footer {
     0% {
         -webkit-transform: translateX(100%);
     }
+
     100% {
         -webkit-transform: translateY(0);
     }

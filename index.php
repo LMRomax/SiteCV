@@ -26,20 +26,12 @@
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src='https://www.google.com/recaptcha/api.js'></script>
   <script type="text/javascript" src="assets/js/slick.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>
 </head>
 
 <body>
-  <div id="loading" class="container-fluid loader-container-fluid">
-    <div id="loader" class="loader"></div>
-    <div class="loading-bounce">
-      Loading assets ...
-    </div>
-  </div>
-
-  <div id="is-load" class="is-load" style="display: none;">
+  <div id="is-load" class="is-load" style="display: block;">
     <?php include 'views/menuprincipal.php'; ?>
     <?php include 'views/presentation.php'; ?>
       <div id="ancreCompetences" class="ancre"></div>

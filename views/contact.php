@@ -26,28 +26,28 @@
             <form action="controller/mailsender.php" method="post">
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <label for="name">Nom</label>
+                        <label for="name_input">Nom</label>
                         <input type="text" id="name_input" class="form-control" name="name" required>
                     </div>
 
                     <div class="form-group col-md-6">
-                        <label for="firstname">Prénom</label>
+                        <label for="firstname_input">Prénom</label>
                         <input type="text" id="firstname_input" class="form-control" name="firstname" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-6">
-                        <label for="email">E-mail</label>
+                        <label for="email_input">E-mail</label>
                         <input type="text" id="email_input" class="form-control" name="email" required>
                     </div>
                     <div class="form-group col-md-6">
-                        <label for="phone">Téléphone</label>
+                        <label for="phone_input">Téléphone</label>
                         <input type="text" id="phone_input" class="form-control" name="phone" required>
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-md-12">
-                        <label for="message">Message</label>
+                        <label for="message_input">Message</label>
                         <textarea name="message" id="message_input" required></textarea>
                     </div>
                 </div>

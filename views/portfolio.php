@@ -13,7 +13,7 @@
                                 SpinForWin
                             </div>
                             <div class="plus-icon">
-                                <a href="https://spinforwin.fr/" target="_blank">
+                                <a href="https://spinforwin.fr/" target="_blank" rel="noreferrer">
                                     <i class="fas fa-link"></i>
                                 </a>
                             </div>
@@ -41,7 +41,7 @@
                                 Dubaï Jetski
                             </div>
                             <div class="plus-icon">
-                                <a href="https://www.dubai-jetski.com/" target="_blank">
+                                <a href="https://www.dubai-jetski.com/" target="_blank" rel="noreferrer">
                                     <i class="fas fa-link"></i>
                                 </a>
                             </div>
@@ -69,7 +69,7 @@
                                 British Telecom
                             </div>
                             <div class="plus-icon">
-                                <a href="https://my.bt.com/s/apps/appsorder/customer/index.html#/index?order_ref=&s_cid=con_FURL_myorder&s_cid=con_FURL_ordertracking" target="_blank">
+                                <a href="https://my.bt.com/s/apps/appsorder/customer/index.html#/index?order_ref=&s_cid=con_FURL_myorder&s_cid=con_FURL_ordertracking" target="_blank" rel="noreferrer">
                                     <i class="fas fa-link"></i>
                                 </a>
                             </div>
