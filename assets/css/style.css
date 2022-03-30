@@ -154,7 +154,7 @@ button:focus {
 .loader {
     border: 8px solid #f3f3f3;
     border-radius: 50%;
-    border-top: 8px solid #e74c3c;
+    border-top: 8px solid #4cb5f5;
     width: 60px;
     height: 60px;
     -webkit-animation: spin 2s linear infinite;
@@ -169,7 +169,7 @@ button:focus {
 
 .loading-bounce {
     animation: bounce 0.3s ease infinite alternate;
-    color: #e74c3c;
+    color: #4cb5f5;
     font-family: Raleway-SemiBold;
     text-align: center;
     margin-top: 30px;
@@ -181,7 +181,7 @@ button:focus {
 
 .intro-container {
     position: relative;
-    background: #e74c3c;
+    background: #4cb5f5;
     min-height: 250px;
     overflow: hidden;
 }
@@ -191,7 +191,7 @@ button:focus {
     top: -50%;
     left: -5%;
     width: 85px;
-    background: #ecf0f1;
+    background: #FAFAFA;
     transform: rotate(45deg);
     min-height: 200%;
 }
@@ -220,7 +220,7 @@ button:focus {
 .intro-container .intro-presentation .intro-presentation--name {
     font-family: Raleway-Black;
     font-size: 32px;
-    color: #ecf0f1;
+    color: #FAFAFA;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -228,7 +228,7 @@ button:focus {
 .intro-container .intro-presentation .intro-presentation--devweb {
     font-family: Raleway-Regular;
     font-size: 24px;
-    color: #ecf0f1;
+    color: #FAFAFA;
     text-align: center;
 }
 
@@ -243,9 +243,9 @@ button:focus {
 }
 
 .menu--nav {
-    background: #34495e;
+    background: #34675c;
     padding: 16px;
-    color: #ecf0f1;
+    color: #FAFAFA;
 }
 
 .menu--nav.menu--fixed {
@@ -271,7 +271,7 @@ button:focus {
     position: relative;
     font-family: Raleway-Bold;
     text-transform: uppercase;
-    color: #ecf0f1;
+    color: #FAFAFA;
     text-align: center;
 }
 
@@ -284,7 +284,7 @@ button:focus {
     left: 0;
     right: 0;
     width: 100%;
-    background: #e74c3c;
+    background: #4cb5f5;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -301,7 +301,7 @@ button:focus {
     left: 0;
     right: 0;
     width: 0%;
-    background: #e74c3c;
+    background: #4cb5f5;
     -o-transition: .5s;
     -ms-transition: .5s;
     -moz-transition: .5s;
@@ -322,9 +322,9 @@ button:focus {
 
 .responsive-mobile-nav {
     visibility: hidden;
-    background: #34495e;
+    background: #34675c;
     padding: 16px;
-    color: #ecf0f1;
+    color: #FAFAFA;
     overflow-x: hidden;
 }
 
@@ -363,7 +363,7 @@ button:focus {
     width: 75px !important;
     height: 30px !important;
     z-index: 1;
-    background: #34495e !important;
+    background: #34675c !important;
 }
 
 .slick-prev:before {
@@ -383,7 +383,7 @@ button:focus {
 
 .data-card {
     position: relative;
-    background: #ecf0f1;
+    background: #FAFAFA;
     width: 470px;
     height: 470px;
     margin: auto;
@@ -397,13 +397,13 @@ button:focus {
 }
 
 .big-title {
-    background: #e74c3c;
+    background: #4cb5f5;
     border-radius: 2px;
     padding: 16px;
     font-size: 24px;
     text-transform: uppercase;
     margin-bottom: 16px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Black;
 }
 
@@ -426,7 +426,7 @@ button:focus {
 }
 
 .social-network-content a {
-    color: #34495e;
+    color: #34675c;
     font-size: 28px;
     margin-right: 24px;
 }
@@ -442,9 +442,9 @@ button:focus {
 .cv-button a {
     display: block;
     max-width: 190px;
-    background: #34495e;
+    background: #34675c;
     padding: 12px 16px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Bold;
     border: none;
     border-radius: 2px;
@@ -472,8 +472,8 @@ button:focus {
 
 .comp-name {
     width: 65%;
-    background: #34495e;
-    color: #fff;
+    background: #34675c;
+    color: #FAFAFA;
     font-family: Raleway-Bold;
     font-size: 20px;
     padding: 8px;
@@ -496,16 +496,16 @@ button:focus {
 .progress-bar {
     width: 100%;
     height: 25px;
-    background: #fff;
+    background: #FAFAFA;
     border-radius: 2px;
     overflow: hidden;
 }
 
 .master-comp {
-    background: #e74c3c;
+    background: #4cb5f5;
     height: 25px;
     border-radius: 2px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Medium;
     -webkit-transition: width 2.5s ease;
     transition: width 2.5s ease;
@@ -566,7 +566,7 @@ button:focus {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    color: #FAFAFA;
     visibility: hidden;
     opacity: 0;
     padding: 16px;
@@ -607,7 +607,7 @@ button:focus {
 }
 
 .portfolio-card .img-projet:hover .img-projet-mask--title-wborder {
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid #FAFAFA;
     margin-bottom: 8px;
 }
 
@@ -625,7 +625,7 @@ button:focus {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: #FAFAFA;
     width: 48px;
     height: 48px;
     border-radius: 50%;
@@ -639,8 +639,8 @@ button:focus {
 }
 
 .img-projet-mask--content .plus-icon a:hover {
-    background: #fff;
-    color: #e74c3c;
+    background: #FAFAFA;
+    color: #4cb5f5;
     text-decoration: none;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -651,7 +651,7 @@ button:focus {
 
 .img-projet-mask--content .description-project--not-online {
     font-size: 13px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Light;
 }
 
@@ -675,14 +675,14 @@ button:focus {
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: #e74c3c;
+    background: #4cb5f5;
 }
 
 .xp--point-line .xp-line {
     position: absolute;
     left: 7px;
     top: 0;
-    border-left: 2px solid #34495e;
+    border-left: 2px solid #34675c;
     height: 100%;
 }
 
@@ -726,7 +726,7 @@ button:focus {
 }
 
 .xps-timeline .xp-enterprise {
-    color: #34495e;
+    color: #34675c;
     font-family: 'Raleway-Bold';
     margin-bottom: 8px;
 }
@@ -750,7 +750,7 @@ button:focus {
 
 .xp-place-date .xp-place i, .xp-place-date .xp-date i {
     font-size: 16px;
-    color: #e74c3c;
+    color: #4cb5f5;
     margin-right: 4px;
 }
 
@@ -781,9 +781,9 @@ button:focus {
 
 .button--xp_readmore {
     cursor: pointer;
-    background: #34495e;
+    background: #34675c;
     padding: 12px 16px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Bold;
     border: none;
     border-radius: 2px;
@@ -856,7 +856,7 @@ button:focus {
     font-size: 20px;
     line-height: 1;
     opacity: 1;
-    color: #34495e;
+    color: #34675c;
     font-weight: 600;
 }
 
@@ -877,9 +877,9 @@ button:focus {
 .find-me-on-malt a {
     display: block;
     cursor: pointer;
-    background: #34495e;
+    background: #34675c;
     padding: 12px 16px;
-    color: #fff;
+    color: #FAFAFA;
     font-family: Raleway-Bold;
     border: none;
     border-radius: 2px;
@@ -924,7 +924,7 @@ button:focus {
     display: block;
     min-width: 200px;
     max-width: 250px;
-    color: #fff;
+    color: #FAFAFA;
     padding: 8px 12px;
     font-size: 16px;
     font-family: Raleway-Bold;
@@ -944,11 +944,11 @@ button:focus {
 }
 
 .social-network--contact .malt-link {
-    background: #ff5c57;
+    background: #34675c;
 }
 
 .social-network--contact .linkedin-link {
-    background: #0A66C2;
+    background: #34675c;
 }
 
 .block-contact p {
@@ -965,13 +965,13 @@ button:focus {
 
 .block-card-contact input {
     border: none;
-    border-bottom: 2px solid #34495e;
+    border-bottom: 2px solid #34675c;
     border-radius: 0;
 }
 
 .block-card-contact input:focus {
     outline: 0;
-    border-bottom: 2px solid #e74c3c;
+    border-bottom: 2px solid #4cb5f5;
     box-shadow: 0 0 0 0rem rgb(0 123 255 / 25%);
 }
 
@@ -979,7 +979,7 @@ button:focus {
     width: 100%;
     resize: none;
     border: none;
-    border-bottom: 2px solid #34495e;
+    border-bottom: 2px solid #34675c;
     border-radius: 0;
     padding: .375rem .75rem;
     height: 38px;
@@ -987,14 +987,14 @@ button:focus {
 
 .block-card-contact textarea:focus {
     outline: 0;
-    border: 2px solid #e74c3c;
+    border: 2px solid #4cb5f5;
 }
 
 .submit-contact {
     min-width: 175px;
     border-radius: 2px;
-    color: #fff;
-    background: #e74c3c;
+    color: #FAFAFA;
+    background: #4cb5f5;
     font-size: 16px;
     font-family: Raleway-Bold;
     border: none;
@@ -1027,7 +1027,7 @@ button:focus {
     bottom: 25px;
     left: 16px;
     padding: 24px;
-    color: #fff;
+    color: #FAFAFA;
     min-width: 200px;
     max-width: 250px;
     text-align: center;
@@ -1051,8 +1051,8 @@ button:focus {
 /*-- Footer --*/
 
 footer {
-    background: #e74c3c;
-    color: #fff;
+    background: #4cb5f5;
+    color: #FAFAFA;
     font-size: 16px;
     font-family: Raleway-Italic;
     padding: 16px 24px;
