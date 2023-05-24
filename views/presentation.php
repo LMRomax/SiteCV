@@ -14,7 +14,7 @@
                 par la suite devenu autodidacte et j'ai également fondé mon auto-entreprise.
             </div>
             <div class="cv-button">
-                <a href="assets/pdf/Lemaitre_Maxence_CV_05062019.pdf" download>
+                <a href="assets/pdf/Lemaitre_Maxence_CV.pdf" download>
                     Télécharger mon CV
                 </a>
             </div>

@@ -11,6 +11,61 @@
                     <div class="refs-text">
                         <p>
                             <strong>
+                                Samy Bako - Octopulse
+                            </strong>
+                        </p>
+                        <p>
+                            Merci à Maxence pour sa réactivité et sa flexibilité pour réaliser cette mission. Nous étions 
+                            tenu au courant régulièrement de l'avancée de la prestation et son rendu final était de qualité. 
+                            Je recommande vivement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="refs-content">
+                <div class="refs-photo-text">
+                    <img src="assets/images/Refs/JonathanBenmouhar.webp" alt="Jonathan Benmouhar">
+                    <div class="refs-text">
+                        <p>
+                            <strong>
+                                Laurence Vandeventer - Apter France
+                            </strong>
+                        </p>
+                        <p>
+                            Maxence nous a fait un audit malgré beaucoup de difficulté à avoir les infos. Sa ténacité a
+                            payé et il a été particulièrement honnête en révisant son tarif en fonction du travail mené.
+                            J'apprécie beaucoup cette transparence qui donne confiance dans un domaine très obscur pour des non sachants
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="refs-content">
+                <div class="refs-photo-text">
+                    <img src="assets/images/Refs/JonathanBenmouhar.webp" alt="Jonathan Benmouhar">
+                    <div class="refs-text">
+                        <p>
+                            <strong>
+                                Typhen Maupate - SSC
+                            </strong>
+                        </p>
+                        <p>
+                            Il est très agréable de travailler avec Maxence. Il a vraiment le sens de l'écoute et cherche
+                            à comprendre votre besoin. Il a su adapter son planning pour tenir nos délais qui étaient serrés.
+                            Il sait faire la part des choses entre les aspects techniques et les échéances opérationnelles pour
+                            trouver le juste équilibre. Nous recommandons Maxence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="refs-content">
+                <div class="refs-photo-text">
+                    <img src="assets/images/Refs/JonathanBenmouhar.webp" alt="Jonathan Benmouhar">
+                    <div class="refs-text">
+                        <p>
+                            <strong>
                                 Jonathan Benmouhar - Oléoz
                             </strong>
                         </p>

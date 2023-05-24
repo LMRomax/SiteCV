@@ -526,13 +526,17 @@ button:focus {
     background-repeat: no-repeat;
 }
 
-.portfolio-card .spinforwin-projet {
+.portfolio-card .compil-projet {
     height: 416px;
     margin-bottom: 0;
 }
 
 .portfolio-card .img-projet {
     margin-bottom: 16px;
+}
+
+.compil-projet {
+    background: url('../images/portfolio/2023-05-24-13-06-www.laboratoire-arrow-compil.com.webp');
 }
 
 .spinforwin-projet {

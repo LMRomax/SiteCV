@@ -6,14 +6,14 @@
     <div class="portfolio-list">
         <div class="row portfolio-row">
             <div class="col-md-4 portfolio-card">
-                <div class="img-projet spinforwin-projet">
+                <div class="img-projet compil-projet">
                     <div class="img-projet-mask">
                         <div class="img-projet-mask--content">
                             <div class="img-projet-mask--title">
-                                SpinForWin
+                                Compil - Laboratoire Arrow
                             </div>
                             <div class="plus-icon">
-                                <a href="https://spinforwin.fr/" target="_blank" rel="noreferrer">
+                                <a href="https://www.laboratoire-arrow-compil.com" target="_blank" rel="noreferrer">
                                     <i class="fas fa-link"></i>
                                 </a>
                             </div>
@@ -22,14 +22,15 @@
                 </div>
             </div>
             <div class="col-md-3 portfolio-card">
-                <div class="img-projet yoo-projet">
+                <div class="img-projet spinforwin-projet">
                     <div class="img-projet-mask">
                         <div class="img-projet-mask--content">
                             <div class="img-projet-mask--title img-projet-mask--title-wborder">
-                                Yoo (Your Own Organization)
+                                SpinForWin
                             </div>
                             <div class="description-project--not-online">
-                                Yoo est un projet étudiant permettant de gérer ses contacts professionnels.
+                                Spinforwin est un site de VOD de Poker conçu par une équipe de coach reconnus dans le milieu.
+                                Cela permet à tous les joueurs de disposer des meilleurs moyens afin de progresser.
                             </div>
                         </div>
                     </div>

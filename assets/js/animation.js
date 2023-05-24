@@ -35,7 +35,7 @@ $(window).scroll(function () {
 });
 
 $(window).scroll(function () {
-    if ($(window).scrollTop() > $("#ancreContact").offset().top - parseInt(600)) {
+    if ($(window).scrollTop() > $("#ancreContact").offset().top - parseInt(900)) {
         $('#contact').addClass('showed');
     }
 });

@@ -13,6 +13,177 @@
                 <div class="xp-content">
                     <div class="xp-details">
                         <p class="xp-enterprise">
+                            Puls
+                        </p>
+                        <p class="xp-mission">
+                            Lead développeur | Conception du projet Bati Garanti
+                        </p>
+                        <div class="xp-place-date">
+                            <p class="xp-place">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Crespin - Freelance
+                            </p>
+                            <p class="xp-date">
+                                <i class="fas fa-calendar"></i>
+                                Mai 2022 - Mars 2023
+                            </p>
+                        </div>
+                        <p class="xp-description">
+                            Agence de marketing digital ayant l’obsession du résultat, la société Puls accompagne ses clients dans la croissance de leurs ventes.
+                            <br><br>
+                            Objectifs de la mission :
+                            <br><br>
+                            ➔ Analyse des contraintes et des besoins
+                            <br>
+                            ➔ Supervision et suivi technique
+                            <br>
+                            ➔ Mise en place des tests techniques
+                            <br>
+                            ➔ Vérification de la qualité du code et résolution des bugs
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xp-card">
+                <div class="xp--point-line">
+                    <div class="xp-point"></div>
+                    <div class="xp-line"></div>
+                </div>
+                <div class="xp-content">
+                    <div class="xp-details">
+                        <p class="xp-enterprise">
+                            Nobin's
+                        </p>
+                        <p class="xp-mission">
+                            Reprise des projets du laboratoire Arrow
+                        </p>
+                        <div class="xp-place-date">
+                            <p class="xp-place">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Crespin - Freelance
+                            </p>
+                            <p class="xp-date">
+                                <i class="fas fa-calendar"></i>
+                                Avril 2022 - En cours
+                            </p>
+                        </div>
+                        <p class="xp-description">
+                            Reprise des projets de la société Arrow pour le compte de l'agence Nobin's. 
+                            Nobin's est une agence web fondée il y a plus de 15 ans qui a pour objectif 
+                            d'accompagner ses clients dans le développement de leur communication digitale.
+                            <br><br>
+                            Objectifs de la mission :
+                            <br><br>
+                            ➔ Reprise du projet coopération commerciale.
+                            <br>
+                            ➔ Reprise du projet AboxCare.
+                            <br>
+                            ➔ Reprise du projet BDD Médicaments.
+                            <br>
+                            ➔ Reprise du projet AboxMemo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xp-card">
+                <div class="xp--point-line">
+                    <div class="xp-point"></div>
+                    <div class="xp-line"></div>
+                </div>
+                <div class="xp-content">
+                    <div class="xp-details">
+                        <p class="xp-enterprise">
+                            AXIS MUNDI
+                        </p>
+                        <p class="xp-mission">
+                            Développement de nouvelles fonctionnalités / maintenance
+                        </p>
+                        <div class="xp-place-date">
+                            <p class="xp-place">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Crespin - Freelance
+                            </p>
+                            <p class="xp-date">
+                                <i class="fas fa-calendar"></i>
+                                Novembre 2021 - Mars 2022
+                            </p>
+                        </div>
+                        <p class="xp-description">
+                            AXIS MUNDI met en avant une approche intégrée et multidisciplinaire de services de conseil et 
+                            d’aide à l’attention de ses clients permettant une amélioration du bien-être et de la performance 
+                            individuelle et collective de leurs salariés.
+                            <br><br>
+                            Objectifs de la mission :
+                            <br><br>
+                            ➔ Développement de nouvelles fonctionnalités.
+                            <br>
+                            ➔ Maintenance et correction des bugs rencontrés.
+                            <br>
+                            ➔ Refactorisation du code.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="xp-card">
+                <div class="xp--point-line">
+                    <div class="xp-point"></div>
+                    <div class="xp-line"></div>
+                </div>
+                <div class="xp-content">
+                    <div class="xp-details">
+                        <p class="xp-enterprise">
+                            SBE Global
+                        </p>
+                        <p class="xp-mission">
+                            Mise à jour des plateformes d'échange de Bell | Virgin Plus
+                        </p>
+                        <div class="xp-place-date">
+                            <p class="xp-place">
+                                <i class="fas fa-map-marker-alt"></i>
+                                Lille - Freelance
+                            </p>
+                            <p class="xp-date">
+                                <i class="fas fa-calendar"></i>
+                                Juin 2021 - Août 2021
+                            </p>
+                        </div>
+                        <p class="xp-description">
+                            SBE Global est la Business Unit informatique du groupe SBE. SBE Global est l'éditeur de la solution GlobalCare, plateforme
+                            logicielle de gestion du service après-vente et de la relation client multi-canal, commercialisée en mode SaaS (software-as-a-Service).
+                            SBE Global, qui fait partie du groupe SBE (2500 personnes dans le monde), a son pôle principal de développement informatique à
+                            Euratechnologies (Lille).
+                            <br><br>
+                            Objectifs de la mission :
+                            <br><br>
+                            ➔ Mettre à jour les interactions API.
+                            <br>
+                            ➔ Mettre à jour l'interface utilisateur.
+                            <br>
+                            ➔ Ajout de nouvelles fonctionnalités.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="xp--button__wrapper">
+            <button class="button--xp_readmore">
+                Voir toutes les expériences
+            </button>
+        </div>
+
+        <div class="xp-more--toread">
+            <div class="xp-card">
+                <div class="xp--point-line">
+                    <div class="xp-point"></div>
+                    <div class="xp-line"></div>
+                </div>
+                <div class="xp-content">
+                    <div class="xp-details">
+                        <p class="xp-enterprise">
                             SBE Global
                         </p>
                         <p class="xp-mission">
@@ -166,15 +337,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-
-        <div class="xp--button__wrapper">
-            <button class="button--xp_readmore">
-                Voir toutes les expériences
-            </button>
-        </div>
-
-        <div class="xp-more--toread">
             <div class="xp-card">
                 <div class="xp--point-line">
                     <div class="xp-point"></div>

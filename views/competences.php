@@ -69,7 +69,7 @@
             </div>
             <div class="col-md-4 comp-card">
                 <div class="comp--inner">
-                    <div class="comp-name">React</div>
+                    <div class="comp-name">VueJS</div>
                     <div class="comp-handle">
                         <div class="progress-bar">
                             <div class="master-comp" style="width: 30%;">
