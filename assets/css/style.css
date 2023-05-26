@@ -1130,6 +1130,12 @@ footer {
     -webkit-transform: translateX(0);
 }
 
+/* Recaptcha */
+
+.g-recaptcha {
+    margin-bottom: 16px;
+}
+
 /* animation spin for loader */
 
 @-webkit-keyframes spin {

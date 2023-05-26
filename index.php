@@ -25,6 +25,7 @@
   <!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
 
   <!-- Scripts -->
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script type="text/javascript" src="assets/js/slick.js"></script>
   <script type="text/javascript" src="assets/js/script.js"></script>

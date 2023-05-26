@@ -53,6 +53,12 @@
                 </div>
 
                 <div class="row">
+                    <div class="form-group col-md-12">
+                        <div class="g-recaptcha" data-sitekey="6Lfi8EEmAAAAADHm0xYEs7z1Yc1d3-hCDx-lm70b"></div>
+                    </div>
+                </div>
+
+                <div class="row">
                     <div class="form-group--submit col-md-12">
                         <button type="submit" class="submit-contact">
                             Envoyer
